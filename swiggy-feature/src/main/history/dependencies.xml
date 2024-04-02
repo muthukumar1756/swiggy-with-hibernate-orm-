@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="swiggy-feature">
+    <feature version="0.0.0">
+        <bundle>mvn:org.swiggy/database/1.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.swiggy/exception/1.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.swiggy/initiator/1.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.swiggy/restaurant/1.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.swiggy/shared-module/1.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.swiggy/user/1.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.swiggy/validator/1.0-SNAPSHOT</bundle>
+    </feature>
+</features>
